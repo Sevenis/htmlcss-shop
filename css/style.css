@@ -8,12 +8,13 @@ body {
     background-color: white;
 }
 
-.vetrina {
+.container {
     margin: 80px;
     width: 300px;
     height: 350px;
     background-color: #ececea;
     display: inline-block;
+    position: relative;
 }
 
 .a_immagine {
@@ -23,8 +24,9 @@ body {
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    left: 105px;
-    top: 160px;
+    background-position: center;
+    left: 25px;
+    top: 25px;
 }
 
 .a_sconto {
@@ -34,17 +36,19 @@ body {
     position: absolute;
     text-align: center;
     line-height: 50px;
-    left: 330px;
+    top: 0px;
+    right: 0px;
 }
-/* .b_immagine {
+.b_immagine {
     width: 250px;
     height: 300px;
     background-image: url('../img/paranza.jpg');
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    left: 105px;
-    top: 160px;
+    background-position: center;
+    left: 25px;
+    top: 25px;
 }
 
 .b_sconto {
@@ -54,5 +58,29 @@ body {
     position: absolute;
     text-align: center;
     line-height: 50px;
-    left: 330px;
-} */
+    top: 0px;
+    right: 0px;
+}
+
+.c_immagine {
+    width: 250px;
+    height: 300px;
+    background-image: url('../img/panzerotti.jpg');
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 25px;
+    top: 25px;
+}
+
+.c_sconto {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    top: 0px;
+    right: 0px;
+}
