@@ -16,14 +16,13 @@ body {
     display: inline-block;
     position: relative;
     border: 1px solid black;
-    /* padding: 40px; */
 }
 
-.mouse {
-
-}
-span:hover + container {
-    display:block;
+/* PopUp cuore quando si passa su con il mouse */
+.container:hover {
+    background-image: url('../img/cuore.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .a_immagine {
