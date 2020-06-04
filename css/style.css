@@ -15,6 +15,14 @@ body {
     background-color: #ececea;
     display: inline-block;
     position: relative;
+    border: 1px solid black;
+}
+
+.mouse {
+
+}
+span:hover + container {
+    display:block;
 }
 
 .a_immagine {
