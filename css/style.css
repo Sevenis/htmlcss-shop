@@ -6,16 +6,17 @@
 
 body {
     background-color: white;
+    margin: 80px;
 }
 
 .container {
-    margin: 80px;
     width: 300px;
     height: 350px;
     background-color: #ececea;
     display: inline-block;
     position: relative;
     border: 1px solid black;
+    /* padding: 40px; */
 }
 
 .mouse {
